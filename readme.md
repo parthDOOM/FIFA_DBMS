@@ -30,25 +30,25 @@ Your project is now initialized and ready for further development.
 
 
 ```markdown
-![Home Page](./readmeimgs/home.png)
+![Home Page](readmeimgs\home.png)
 ```
 
 ```markdown
-![Search Page](./readmeimgs/search.png )
+![Search Page](readmeimgs/search.png)
 ```
 ```markdown
-![Update Page](./readmeimgs/update.png)
-```
-
-```markdown
-![Insert Page](./readmeimgs/insert.png)
+![Update Page](readmeimgs/update.png)
 ```
 
 ```markdown
-![Database Page](./readmeimgs/database.png)
+![Insert Page](readmeimgs/insert.png)
 ```
 
 ```markdown
-![Procedures Page](./readmeimgs/procedures.png)
+![Database Page](readmeimgs/database.png)
+```
+
+```markdown
+![Procedures Page](readmeimgs/procedures.png)
 ```
 
