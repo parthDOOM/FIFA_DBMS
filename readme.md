@@ -30,15 +30,21 @@ Your project is now initialized and ready for further development.
 
 Here are some screenshots of the different pages in the FIFA database management system:
 
+Home Page:
 ![Home Page](readmeimgs/home.png)
 
+Search Page:
 ![Search Page](readmeimgs/search.png)
 
+Update Page:
 ![Update Page](readmeimgs/update.png)
 
+Insert Page:
 ![Insert Page](readmeimgs/insert.png)
 
+Database Page:
 ![Database Page](readmeimgs/database.png)
 
+Procedures Page:
 ![Procedures Page](readmeimgs/procedures.png)
 
