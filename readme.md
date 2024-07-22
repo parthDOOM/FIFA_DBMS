@@ -28,27 +28,17 @@ To initialize the project, follow these steps:
 
 Your project is now initialized and ready for further development.
 
+Here are some screenshots of the different pages in the FIFA database management system:
 
-```markdown
-![Home Page](readmeimgs\home.png)
-```
+![Home Page](readmeimgs/home.png)
 
-```markdown
 ![Search Page](readmeimgs/search.png)
-```
-```markdown
+
 ![Update Page](readmeimgs/update.png)
-```
 
-```markdown
 ![Insert Page](readmeimgs/insert.png)
-```
 
-```markdown
 ![Database Page](readmeimgs/database.png)
-```
 
-```markdown
 ![Procedures Page](readmeimgs/procedures.png)
-```
 
