@@ -589,7 +589,7 @@ legend {
 }
 
 .is-focused .choices__inner, .is-open .choices__inner {
-  border-color: #b7b7b7;
+  border-color: white;
 }
 
 .is-open .choices__inner {
@@ -733,7 +733,7 @@ legend {
 }
 
 .choices__list--dropdown .choices__item--selectable.is-highlighted {
-  background-color: #f2f2f2;
+  background-color: white;
 }
 
 .choices__list--dropdown .choices__item--selectable.is-highlighted:after {
@@ -762,7 +762,7 @@ legend {
   font-size: 12px;
   padding: 10px;
   border-bottom: 1px solid #f7f7f7;
-  color: gray;
+  color: white;
 }
 
 .choices__button {
@@ -917,7 +917,7 @@ legend {
       align-items: center;
   height: 100%;
   opacity: 1;
-  color: #888;
+  color: #FFF;
 }
 
 .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__list--single .choices__item {
@@ -926,7 +926,7 @@ legend {
   -ms-flex-align: center;
       align-items: center;
   height: 100%;
-  color: #555;
+  color: #FFF;
 }
 
 .s003 form .inner-form .input-field.first-wrap .choices[data-type*="select-one"]:after {
@@ -952,7 +952,7 @@ legend {
 }
 
 .s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item {
-  color: #555;
+  color: #FFF;
   min-height: 24px;
 }
 

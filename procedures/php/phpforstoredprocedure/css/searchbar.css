@@ -5,7 +5,7 @@
   /* 2 */
 /*  -webkit-text-size-adjust: 100%;*/
   /* 2 */
-}
+/* } */
 
 /* Sections
    ========================================================================== */
@@ -261,6 +261,7 @@ button,
 html [type="button"],
 [type="reset"],
 [type="submit"] {
+  appearance: button;
   -webkit-appearance: button;
   /* 2 */
 }
@@ -357,6 +358,7 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type="search"] {
+  appearance: textfield;
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -858,17 +860,17 @@ legend {
 }
 
 .s003 form .inner-form .input-field input.placeholder {
-  color: #888;
+  color: #fff;
   font-size: 16px;
 }
 
 .s003 form .inner-form .input-field input:-moz-placeholder {
-  color: #888;
+  color: #fff;
   font-size: 16px;
 }
 
 .s003 form .inner-form .input-field input::-webkit-input-placeholder {
-  color: #888;
+  color: #fff;
   font-size: 16px;
 }
 
@@ -914,7 +916,7 @@ legend {
       align-items: center;
   height: 100%;
   opacity: 1;
-  color: #888;
+  color: #fff;
 }
 
 .s003 form .inner-form .input-field.first-wrap .choices__inner .choices__list--single .choices__item {
@@ -923,7 +925,7 @@ legend {
   -ms-flex-align: center;
       align-items: center;
   height: 100%;
-  color: #555;
+  color: #fff;
 }
 
 .s003 form .inner-form .input-field.first-wrap .choices[data-type*="select-one"]:after {
@@ -949,7 +951,7 @@ legend {
 }
 
 .s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item {
-  color: #555;
+  color: #fff;
   min-height: 24px;
 }
 

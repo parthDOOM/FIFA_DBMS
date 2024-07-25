@@ -26,7 +26,7 @@
 				font-size: 23px;
 				width: 80% ;
 				margin-left: 138px;
-				background-image: linear-gradient(to right top, #123e80, #003462, #002843, #021a26, #030709);
+				background-image: linear-gradient(to right top, #4b0b0b, #5a1e0e, #6c320d, #7e450c, #90480a);
 				/*  border: 1px solid #ccc;*/
 				border-radius: 6px;
 			}
