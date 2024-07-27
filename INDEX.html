@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en" >
 
 	<head>
@@ -6,6 +6,8 @@
 		<title>Home</title>
 		
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 		<link rel="stylesheet" href="css/menu.css">
 			<style>
 				/* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
@@ -48,6 +50,8 @@
 
 	<body>
 		<div class="background-image"></div>
+		
+
 		<div class="parent">     
 			<ul class="menu cf">
 				<li><a href="INDEX.html">Home</a></li>
@@ -55,7 +59,7 @@
 				<li><a href="update_player/update_player.html">Update</a></li>
 				<li><a href="insert_player/insert_new_player.html">Insert</a></li>
 				<li><a href="database/database.php">Database</a></li>
-				<!-- <li><a href="report/project_report.html">Report</a></li> -->
+				<!-- <li><a href="report/project_report.html">Report</a></li> 
 				<li><a href="procedures/procedures.html">Procedures</a></li>
 				<li><a href="about/about.html">About</a></li>
 			</ul>
@@ -63,11 +67,97 @@
 				<div class="text" style="font-size: 33px; font-weight: 900; outline: inherit; text-decoration-style: doted;"></div>
 			</div>    
 		</div>
+		<div><script src="js/3d.js"></script></div>
 		<script src="js/index.js"></script>
 	</body>
 
-</html> 
+</html>  -->
 
 
 <!-- style="background:linear-gradient(to right top, #050744, #004283, #007fb8, #00bee1, #5fffff); overflow: hidden;" -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="css/menu.css">
+	<script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <style>
+        @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+        html,
+        body {
+            font-family: 'Roboto Mono', monospace;
+            background: #333;
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+        }
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('images/img2.jpg') no-repeat center center/cover;
+            opacity: 0.3;
+            z-index: 0;
+        }
+
+        .threejs-container {
+            width: 48%;
+            height: 30%;
+            position: absolute;
+			justify-content: center;
+			margin-left: 27%;
+            top: 10%;
+            z-index: 1;
+        }
+        .text-container {
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            z-index: 1;
+        }
+        .text {
+            font-weight: 100;
+            font-size: 28px;
+            color: #fafafa;
+        }
+        .dud {
+            color: #757575;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background-image"></div>
+    <ul class="menu cf">
+        <li><a href="INDEX.html">Home</a></li>
+        <li><a href="search_player/player_search.html">Search</a> </li>
+        <li><a href="update_player/update_player.html">Update</a></li>
+        <li><a href="insert_player/insert_new_player.html">Insert</a></li>
+        <li><a href="database/database.php">Database</a></li>
+        <!-- <li><a href="report/project_report.html">Report</a></li>  -->
+        <li><a href="procedures/procedures.html">Procedures</a></li>
+        <li><a href="about/about.html">About</a></li>
+    </ul>
+    <div class="threejs-container" id="threejs-container"></div>
+    <div class="text-container">
+        <div class="text" id="scramble-text" style="font-size: 33px; font-weight: 900; outline: inherit; text-decoration-style: dotted;"></div>
+    </div>  
+
+    <script src="js/3d.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html> 
+
 
